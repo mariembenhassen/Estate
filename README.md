@@ -1,16 +1,44 @@
-# React + Vite
+# Estate Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive Real Estate web application built with **React**, **Vite**, and **Tailwind CSS**.  
+Allows users to browse, search, and view properties with modern UI.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## About
 
-## React Compiler
+This project is a real estate platform where users can explore property listings.  
+It is built with **React** for the frontend, **Vite** for fast development, and **Tailwind CSS** for styling.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+**Features include:**
 
-## Expanding the ESLint configuration
+- Property listing cards with images
+- Responsive design for desktop and mobile
+- Clean and reusable components
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Installation
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/yourusername/estate-project.git
+cd estate-project
+
+Usage
+
+Add properties by creating new components or editing the data in your source files.
+
+Customize styling using Tailwind CSS classes.
+
+Replace placeholder images in the public/ folder with real property images.
+
+Technologies
+
+React – Frontend library
+
+Vite – Development and build tool
+
+Tailwind CSS – Styling framework
+
+JavaScript / JSX – Project language
