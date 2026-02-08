@@ -3,9 +3,10 @@ import { assets } from '../assets/assets'
 
 const Navbar = () => { 
   const [showMobileMenu , setShowMobileMenu]= useState(false)
+
   useEffect(()=>{
   if (showMobileMenu){
-   document.documentElement.style.overflow = 'hidden'  //prevent website from scrolling  
+     document.body.style.overflow = 'hidden';  //prevent from scrolling  
   }else {
      document.body.style.overflow='auto' //allow scrolling 
   }
